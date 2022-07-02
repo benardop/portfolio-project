@@ -1,20 +1,20 @@
 .header-container {
-    background-image: url(../image/header-image.jpg);
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 340px;
-    height: 620px;
-    margin: 0 auto 10vh auto;
+  background-image: url(../image/header-image.jpg);
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 340px;
+  height: 620px;
+  margin: 0 auto 10vh auto;
 }
 
 section p {
-    margin-top: 0;
-    font-style: normal;
-    font-size: 17px;
-    line-height: 24px;
-    width: 327px;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
+  margin-top: 0;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  width: 327px;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
 }
 
 .navigation-bar {
@@ -25,8 +25,8 @@ section p {
 }
 
 .link-image {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .developer-name {
@@ -39,39 +39,37 @@ section p {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .connect-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    font-family: 'Poppins', sans-serif;
-    order: 0;
-    
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  order: 0;
 }
 
 .connect-icon {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    width: 170px;
-    margin-top: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  margin-top: auto;
 }
+
 a {
-    text-decoration: none;
-    font-weight: bolder;
-    color: rgb(90, 35, 241);
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(90, 35, 241);
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-link {
-    padding: 10px 17px 0 17px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-
+  padding: 10px 17px 0 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
