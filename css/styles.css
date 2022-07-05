@@ -172,6 +172,29 @@ project-title h1 {
   word-spacing: 0;
 }
 
+.primary-buttons {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+.button1 {
+  display: flex;
+  font-style: normal;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: #ebebff;
+  flex: 0 0 auto;
+  color: #6070ff;
+  background: #ebebff;
+}
 
 
 
