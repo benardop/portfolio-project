@@ -94,6 +94,14 @@ a {
   flex-grow: 0;
 }
 
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+}
+
 .snapshoot-image {
   background: url("../image/snapshoot-portfolio.png"), no-repeat;
   background-position: center;
