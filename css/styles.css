@@ -176,12 +176,13 @@ project-title h1 {
   display: flex;
   list-style-type: none;
   justify-content: flex-start;
-  gap: 10%;
+  gap: 8px;
 }
 
 .button1 {
   display: flex;
   font-style: normal;
+  background: #ebebff;
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 12px;
@@ -192,10 +193,28 @@ project-title h1 {
   border-radius: 8px;
   flex: 0 0 auto;
   color: #6070ff;
-  background: #ebebff;
+  border: 0.5px solid #e8e8e8;
 }
 
 .button2 {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: 'Poppins';
+  background: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  color: #6070ff;
+  flex: 0 0 auto;
+  border: #e8e8e8;
+}
+
+.button3 {
+  font-weight: 500;
+  font-size: 12px;
+  border: #e8e8e8;
   display: flex;
   font-family: 'Poppins';
   background: #ebebff;
@@ -206,6 +225,32 @@ project-title h1 {
   color: #6070ff;
   flex: 0 0 auto;
 }
+
+.see-project {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  gap: 10px;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  left: 0px;
+  top: calc(50% - 48px/2);
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #ffffff; 
+
+}
+
 
 
 
