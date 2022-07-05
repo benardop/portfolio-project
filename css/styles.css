@@ -99,6 +99,16 @@ a {
   flex-grow: 0;
 }
 
+.container-image-1 {
+  background-image: url("../image/snapshoot-portfolio1.png");
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  flex: 0 0 auto;
+  order: 0;
+  flex-grow: 0;
+}
+
 .left-block {
   display: flex;
   flex-direction: column;
