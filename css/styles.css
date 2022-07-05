@@ -190,10 +190,19 @@ project-title h1 {
   align-items: center;
   padding: 4px 12px;
   border-radius: 8px;
-  background: #ebebff;
   flex: 0 0 auto;
   color: #6070ff;
   background: #ebebff;
+}
+
+.button2 {
+  font-family: 'Poppins';
+  background: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 
