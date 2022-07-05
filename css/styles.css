@@ -196,13 +196,15 @@ project-title h1 {
 }
 
 .button2 {
+  display: flex;
   font-family: 'Poppins';
   background: #ebebff;
   padding: 4px 12px;
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
-
+  color: #6070ff;
+  flex: 0 0 auto;
 }
 
 
