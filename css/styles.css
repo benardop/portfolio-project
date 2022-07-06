@@ -114,43 +114,62 @@ a {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 15px;
+  gap: 12px;
+  width: 295px;
+  height: 288px;
+  flex: 0 0 auto;
+  order: 1;
+  flex-grow: 0;
 }
 
-.snapshoot-image {
-  background: url("../image/snapshoot-portfolio.png"), no-repeat;
-  background-position: center;
-  border-radius: 8px;
-  flex: none;
+.primary-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 295px;
+  height: 80px;
+  flex: 0 0 auto;
   order: 0;
   flex-grow: 0;
-  width: 295px;
-  height:220px;
 }
 
-project-title h1 {
-  justify-content: flex-start;
-  font-family: 'Poppins';
+.project-title {
   width: 295px;
-  height: 36px; 
+  height: 36px;
   line-height: 44px;
+  font-family: 'Poppins';
   font-weight: 700;
-  font-size: 32px;
+  font-style: normal;
   color: #172b4d;
-  flex: none;
+  flex: 0 0 auto;
   order: 0;
   flex-grow: 0;
+  font-size: 32px;
 }
 
 .frame-2 {
   display: flex;
-  justify-content: initial;
-  padding-left: 0;
-  gap: 10%;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
   width: 236px;
   height: 32px;
+  flex: 0 0 auto;
+  order: 1;
+  flex-grow: 0;
 }
+
+
 .frame-2 #canopy-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0;
+  width: 55px;
+  height: 32px;
   list-style-type: none;
   font-family: 'Poppins';
   font-weight: 600;
