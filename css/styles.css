@@ -488,3 +488,31 @@ a {
   list-style-type: none;
   padding: 12px;
 }
+
+.get-resume:hover {
+  background-color: #ebebff;
+  color: #396df2;
+  transform: 0.8s;
+}
+
+.see-project:hover {
+  background-color: #ebebff;
+  color:#172b4d;
+  transform: 0.8s;
+}
+
+.button1:hover {
+  background-color:#7f8cff;
+  color: #172b4d;
+  transform: 0.8s;
+} 
+.button2:hover {
+  background-color:#7f8cff;
+  color: #172b4d;
+  transform: 0.8s;
+} 
+.button3:hover {
+  background-color:#7f8cff;
+  color: #172b4d;
+  transform: 0.8s;
+} 
