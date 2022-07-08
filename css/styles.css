@@ -3,7 +3,7 @@
 .root-container {
   display: grid;
   position: absolute;
-  height: 4400px;
+  height: 5410px;
   width: 375px;
   gap: 500px;
   left: 400px;
@@ -419,11 +419,8 @@ a {
   margin-right: 5px;
   margin-bottom: 20px;
   gap: 0;
-  background: #fff;
   width: 327px;
   height: 1285px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
   flex: 0 0 auto;
   order: 0;
   flex-grow: 0;
