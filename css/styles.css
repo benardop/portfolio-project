@@ -426,11 +426,11 @@ a {
   flex-grow: 0;
 }
 
-.about-myself h1 {
+.about-myself h2 {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   font-style: normal;
   line-height: 52px;
   width: 32px;
@@ -488,7 +488,7 @@ a {
 
 .get-resume:hover {
   background-color: #ebebff;
-  color: #396df2;
+  color: #172b4d;
   transform: 0.8s;
 }
 
@@ -498,10 +498,34 @@ a {
   transform: 0.8s;
 }
 
+.see-project:disabled {
+  color: #333;
+}
+
+.see-project:enabled {
+  color: #396df2;
+}
+
+.see-project:focus {
+  background-color: #172b4d;
+}
+
 .button1:hover {
   background-color: #7f8cff;
   color: #172b4d;
   transform: 0.8s;
+}
+
+.button1:disabled {
+  color: #333;
+}
+
+.button1:enabled {
+  color: #396df2;
+}
+
+.button1:focus {
+  background-color: #172b4d;
 }
 
 .button2:hover {
@@ -510,8 +534,32 @@ a {
   transform: 0.8s;
 }
 
+.button2:disabled {
+  color: #333;
+}
+
+.button2:enabled {
+  color: #396df2;
+}
+
+.button2:focus {
+  background-color: #172b4d;
+}
+
 .button3:hover {
   background-color: #7f8cff;
   color: #172b4d;
   transform: 0.8s;
+}
+
+.button3:disabled {
+  color: #333;
+}
+
+.button3:enabled {
+  color: #396df2;
+}
+
+.button3:focus {
+  background-color: #172b4d;
 }
