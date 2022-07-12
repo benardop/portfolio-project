@@ -701,3 +701,12 @@ a {
   color: #396df2;
 }
 
+.input-button:focus {
+  background-color: #172b4d;
+}
+
+.input-button:hover {
+  background-color: #7f8cff;
+  color: #172b4d;
+  transform: 0.8s;
+}
