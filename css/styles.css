@@ -583,8 +583,8 @@ a {
 
 .contact-details {
   background:
-      #6070ff url("../image/contact-form-shapes-mobile.svg")
-      100% 32px no-repeat;
+    #6070ff url("../image/contact-form-shapes-mobile.svg")
+    100% 32px no-repeat;
   width: 327px;
   display: flex;
   flex-direction: column;
@@ -597,7 +597,8 @@ a {
 .contact-me {
   width: 327px;
   height: 56px;
-  text-align: center; 
+  text-align: center;
+  margin-top: 150px;
 }
 
 .input-field {
@@ -649,10 +650,6 @@ a {
   color: #6070ff;
   padding: 12px 10px;
 }
-
-/* .contact-me {
-  margin-top: 150px;
-} */
 
 .contact-me h2 {
   text-align: center;
