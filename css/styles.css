@@ -1164,4 +1164,8 @@ a {
     width: 425px;
     margin-left: 65px;
   }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
 }
