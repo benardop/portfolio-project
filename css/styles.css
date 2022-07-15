@@ -715,12 +715,8 @@ a {
   display: none;
 }
 
-
-
-/** Desktop Media css styles**/
-
+/** Desktop Media css styles **/
 @media only screen and (min-width: 768px) {
-
   .root-container {
     display: grid;
     all: unset;
@@ -729,7 +725,6 @@ a {
     background: #e5e5e5;
   }
 
-  
   .header-section {
     background-image: url("../image/header-desktop-bg.svg");
     background-repeat: no-repeat;
@@ -741,7 +736,7 @@ a {
     left: 0;
     top: 0;
     margin: 0 auto 0 auto;
-  } 
+  }
 
   .developer-name {
     width: 380px;
@@ -795,7 +790,7 @@ a {
     margin-top: auto;
   }
 
-   .nav-link {
+  .nav-link {
     all: unset;
     position: sticky;
     z-index: 1;
@@ -820,7 +815,7 @@ a {
 
   .nav-link img {
     display: none;
-  } 
+  }
 
   .tonic-card {
     display: flex;
@@ -856,7 +851,7 @@ a {
     flex-grow: 0;
   }
 
-   .container-image-3 {
+  .container-image-3 {
     background-image: url("../image/snapshoot-portfolio-desktop3.svg");
     background-repeat: no-repeat;
     width: 544px;
@@ -865,7 +860,7 @@ a {
     flex: 0 0 auto;
     order: 0;
     flex-grow: 0;
-  } 
+  }
 
   .frame-2 {
     display: flex;
@@ -884,7 +879,7 @@ a {
   .text-paragraph p {
     display: flex;
     margin: 10px 0 0 26px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -893,7 +888,6 @@ a {
     align-items: flex-start;
     width: 496px;
     height: 76px;
-    line-height: 24px;
     color: #344563;
     padding: 0;
     gap: 12px;
@@ -932,7 +926,7 @@ a {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .see-project {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1010,7 +1004,7 @@ a {
     padding: 16px;
   }
 
-  section p {
+  .text-paragraph section p {
     margin-top: 0;
     font-style: normal;
     font-size: 17px;
@@ -1031,7 +1025,7 @@ a {
     flex-direction: column;
     flex-basis: 50%;
   }
-  
+
   .language-section {
     display: flex;
     flex-direction: column;
@@ -1067,7 +1061,7 @@ a {
     width: 303px;
   }
 
-  .language-list  {
+  .language-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -1075,21 +1069,21 @@ a {
     padding: 12px;
   }
 
-  .language-list li .language-icon{
+  .language-list li .language-icon {
     display: flex;
     flex-direction: column;
     gap: 12px;
     list-style-type: none;
     padding: 12px;
-    width: 40%;;
+    width: 40%;
   }
 
   .contact-details {
     background:
       #6070ff url("../image/header-desktop-bg.svg")
       100% 32px no-repeat;
-      width: 1440px;
-      height: 896px;
+    width: 1440px;
+    height: 896px;
     display: flex;
     flex-direction: column;
     border-top-left-radius: 80px;
@@ -1111,7 +1105,7 @@ a {
   }
 
   .home-button img {
-      display: none;
+    display: none;
   }
 
   .contact-head {
@@ -1125,30 +1119,6 @@ a {
     align-items: center;
     margin-top: -40px;
     margin-left: 56px;
-  }
-
-  .contact-me h2 {
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 28px;
-    color: #ebebff;
-    font-style: normal;
-    margin-top: -70px;
-    margin-left: -40px;
-  }
-
-  .contact-details .paragraph {
-    margin-top: 135px;
-    color: #ebebff;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-style: normal;
-    height: 102px;
-    width: 305px;
-    margin-left: -375px;
   }
 
   .input-button {
@@ -1170,7 +1140,7 @@ a {
     padding: 12px 10px;
     margin-left: 55px;
   }
-  
+
   .contact-me h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -1182,7 +1152,7 @@ a {
     margin-top: 115px;
     margin-right: 24px;
   }
-  
+
   .contact-details .paragraph {
     margin-top: 115px;
     color: #ebebff;
@@ -1194,6 +1164,4 @@ a {
     width: 425px;
     margin-left: 65px;
   }
-  
-
 }
