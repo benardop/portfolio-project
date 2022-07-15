@@ -117,6 +117,46 @@ a {
   flex-grow: 0;
 }
 
+.tonic-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin-top: -405px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  gap: 0;
+  background: #fff;
+  width: 327px;
+  height: 652px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: 0 0 auto;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tonic-card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin-top: -405px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  gap: 0;
+  background: #fff;
+  width: 327px;
+  height: 652px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: 0 0 auto;
+  order: 0;
+  flex-grow: 0;
+}
+
 .container-image-1 {
   background-image: url("../image/snapshoot-portfolio1.png");
   width: 295px;
@@ -731,7 +771,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     border-bottom-left-radius: 120px;
-    width: 100%;
+    width: 1385px;
     height: 916px;
     left: 0;
     top: 0;
@@ -761,13 +801,13 @@ a {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     color: #344563;
-    margin-left: 60px;
+    margin-left: 98px;
   }
 
   .link-image {
     display: flex;
     justify-content: flex-start;
-    margin-left: 60px;
+    margin-left: 98px;
   }
 
   .connect-link {
@@ -785,7 +825,7 @@ a {
   .connect-icon {
     list-style-type: none;
     display: flex;
-    margin-left: 40px;
+    margin-left: 84px;
     justify-content: space-between;
     align-items: flex-start;
     width: 170px;
@@ -824,21 +864,89 @@ a {
     justify-content: space-between;
     padding-left: 35px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     width: 1156px;
-    height: 496px;
+    height: 446px;
     background: #fff;
     border-radius: 24px;
     border: 1px solid #dfe1e6;
-    margin: 50px 0 0 -10px;
+    margin: -100px 0 0 100px;
   }
+
+  .tonic-card-2 {
+    justify-content: space-between;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1156px;
+    height: 446px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #dfe1e6;
+    margin: 50px 0 0 100px;
+  }
+
+  .tonic-card-3 {
+    justify-content: space-between;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row;
+    width: 1156px;
+    height: 446px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #dfe1e6;
+    margin: 50px 0 0 100px;
+  }
+
+  .tonic-card .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 295px;
+    height: 332px;
+    flex: 0 0 auto;
+    order: 1;
+    flex-grow: 0;
+    margin-right: 295px;
+    margin-top: -120px;
+  }
+
+  .tonic-card-2 .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 295px;
+    height: 332px;
+    flex: 0 0 auto;
+    order: 1;
+    flex-grow: 0;
+    margin-left: -15px;
+  }
+
+  .tonic-card-3 .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 295px;
+    height: 332px;
+    flex: 0 0 auto;
+    order: 1;
+    flex-grow: 0;
+    margin-right: 295px;
+    margin-top: -120px;
+  }
+  
 
   .container-image-1 {
     background-image: url("../image/snapshoot-portfolio-desktop1.svg");
     background-repeat: no-repeat;
     width: 544px;
     height: 450px;
-    margin: 24px 0 0 24px;
+    margin: 0 0 0 -15px;
     border-radius: 8px;
     flex: 0 0 auto;
     order: 0;
@@ -865,6 +973,7 @@ a {
     flex: 0 0 auto;
     order: 0;
     flex-grow: 0;
+    margin-left: -20px;
   }
 
   .frame-2 {
@@ -910,6 +1019,26 @@ a {
     gap: 8px;
     width: 203px;
     height: 24px;
+  }
+
+  .tonic-title h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-left: 26px;
+    gap: 12px;
+    width: 295px;
+    height: 36px;
+    flex: 0 0 auto;
+    line-height: 44px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #172b4d;
+    order: 0;
+    flex-grow: 0;
   }
 
   .tonic-title h2 {
@@ -1029,12 +1158,14 @@ a {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+    margin-left: 80px;
   }
 
   .language-section {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+    margin-left: 100px;
   }
 
   .get-resume {
