@@ -1,4 +1,4 @@
- Portfolio portfolio
+ ## Professional Web Portfolio 
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
 For this portfolio website, I implemented Html And Css that includes the project details in mobile.
@@ -19,7 +19,7 @@ Run the command below from the Terminal:
 
       git clone <URL> ' https://github.com/benardop/professional-portfolio.git' in your terminal
 
-	  cd mobile-skeleton
+	  cd professional-portfolio
 
 
 ## Authors
