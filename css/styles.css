@@ -860,6 +860,18 @@ a {
     display: none;
   }
 
+  .nav-link .logo {
+    font-size: 15px;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+  }
+
+  .nav-link .logo:hover {
+    font-size: 38px;
+    color: #ff7235;
+  }
+
   .tonic-card {
     justify-content: space-between;
     padding-left: 35px;
