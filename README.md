@@ -10,7 +10,7 @@ For this portfolio website, I implemented Html And Css that includes the project
 - CSS
 - Linter
 
-## Live Demo (if available)
+## Live Demo
 [Live Demo Link](https://benardop.github.io/portfolio-project/)
 ## Get Started
 
