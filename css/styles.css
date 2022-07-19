@@ -6,9 +6,13 @@
   height: 5410px;
   width: 375px;
   gap: 500px;
-  left: 400px;
+  left: 2px;
   right: 300px;
   background: #f7f7f9;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .header-section {
@@ -1251,7 +1255,7 @@ a {
     margin-bottom: 20px;
     gap: 0;
     width: 1444px;
-    height: 846px;
+    height: auto;
     flex: 0 0 auto;
     order: 0;
     flex-grow: 0;
@@ -1315,8 +1319,8 @@ a {
     text-align: center;
     font-style: normal;
     height: 102px;
-    width: 425px;
-    margin-left: 65px;
+    width: 312px;
+    margin-left: 30px;
     background-color: #fff;
   }
 
