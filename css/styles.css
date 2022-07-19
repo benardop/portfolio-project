@@ -229,7 +229,7 @@ a {
   font-style: normal;
   line-height: 16px;
   font-size: 13px;
-  color: #7a869a;
+  color: #424a57;
   flex: 0 0 auto;
 }
 
@@ -238,7 +238,7 @@ a {
   font-style: normal;
   padding: 15px 0;
   font-size: 13px;
-  color: #7a869a;
+  color: #424a57;
   flex: 0 0 auto;
 }
 
@@ -283,6 +283,7 @@ a {
   flex: 0 0 auto;
   color: #6070ff;
   border: 0.5px solid #e8e8e8;
+  background-color: #0b39ad;
 }
 
 .button2 {
@@ -300,6 +301,7 @@ a {
   color: #6070ff;
   flex: 0 0 auto;
   border: #e8e8e8;
+  background-color: #0b39ad;
 }
 
 .button3 {
@@ -317,6 +319,7 @@ a {
   align-items: center;
   color: #6070ff;
   flex: 0 0 auto;
+  background-color: #0b39ad;
 }
 
 .see-project {
@@ -551,7 +554,7 @@ a {
 }
 
 .button1:hover {
-  background-color: #7f8cff;
+  background-color: #ff7235;
   color: #172b4d;
   transform: 0.8s;
 }
@@ -569,7 +572,7 @@ a {
 }
 
 .button2:hover {
-  background-color: #7f8cff;
+  background-color: #ff7235;
   color: #172b4d;
   transform: 0.8s;
 }
@@ -587,7 +590,7 @@ a {
 }
 
 .button3:hover {
-  background-color: #7f8cff;
+  background-color: #ff7235;
   color: #172b4d;
   transform: 0.8s;
 }
@@ -707,7 +710,7 @@ a {
 
 .contact-details .paragraph {
   margin-top: -15px;
-  color: #ebebff;
+  color: #262626;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -715,6 +718,7 @@ a {
   height: 102px;
   width: 305px;
   margin-left: -12px;
+  background-color: #fff;
 }
 
 .home-button {
@@ -762,7 +766,7 @@ a {
     all: unset;
     width: 1440px;
     height: 5125px;
-    background: #e5e5e5;
+    background: #e5e5e5; 
   }
 
   .header-section {
@@ -816,7 +820,7 @@ a {
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    color: #7f8cff;
+    color: #0016db;
     font-family: 'Poppins', sans-serif;
     order: 0;
     flex: 0 0 auto;
@@ -1030,6 +1034,39 @@ a {
     gap: 8px;
     width: 203px;
     height: 24px;
+  }
+
+  .primary-buttons .button1 {
+    background-color: #0b37a8;
+    color: #fff;
+  }
+
+  .primary-buttons .button1:hover {
+    background-color: #ff7235;
+    color: #172b4d;
+    transform: 0.8s;
+  }
+
+  .primary-buttons .button2 {
+    background-color: #0b37a8;
+    color: #fff;
+  }
+
+  .primary-buttons .button2:hover {
+    background-color: #ff7235;
+    color: #172b4d;
+    transform: 0.8s;
+  }
+
+  .primary-buttons .button3 {
+    background-color: #0b37a8;
+    color: #fff;
+  }
+
+  .primary-buttons .button3:hover {
+    background-color: #ff7235;
+    color: #172b4d;
+    transform: 0.8s;
   }
 
   .tonic-title h2 {
@@ -1283,7 +1320,7 @@ a {
 
   .contact-details .paragraph {
     margin-top: 115px;
-    color: #ebebff;
+    color: #262626;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -1291,6 +1328,7 @@ a {
     height: 102px;
     width: 425px;
     margin-left: 65px;
+    background-color: #fff;
   }
 
   body::-webkit-scrollbar {
