@@ -6,9 +6,13 @@
   height: 5410px;
   width: 375px;
   gap: 500px;
-  left: 400px;
+  left: 2px;
   right: 300px;
   background: #f7f7f9;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .header-section {
@@ -229,7 +233,7 @@ a {
   font-style: normal;
   line-height: 16px;
   font-size: 13px;
-  color: #7a869a;
+  color: #424a57;
   flex: 0 0 auto;
 }
 
@@ -238,7 +242,7 @@ a {
   font-style: normal;
   padding: 15px 0;
   font-size: 13px;
-  color: #7a869a;
+  color: #424a57;
   flex: 0 0 auto;
 }
 
@@ -281,8 +285,9 @@ a {
   padding: 4px 12px;
   border-radius: 8px;
   flex: 0 0 auto;
-  color: #6070ff;
+  color: #fff;
   border: 0.5px solid #e8e8e8;
+  background-color: #0b39ad;
 }
 
 .button2 {
@@ -292,14 +297,16 @@ a {
   width: 45px;
   height: 24px;
   font-family: 'Poppins', sans-serif;
-  background: #ebebff;
+
+  /* background: #ebebff; */
   padding: 4px 12px;
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
-  color: #6070ff;
+  color: #fff;
   flex: 0 0 auto;
   border: #e8e8e8;
+  background-color: #0b39ad;
 }
 
 .button3 {
@@ -315,8 +322,9 @@ a {
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
-  color: #6070ff;
+  color: #fff;
   flex: 0 0 auto;
+  background-color: #0b39ad;
 }
 
 .see-project {
@@ -551,7 +559,7 @@ a {
 }
 
 .button1:hover {
-  background-color: #7f8cff;
+  background-color: #ff7235;
   color: #172b4d;
   transform: 0.8s;
 }
@@ -560,16 +568,12 @@ a {
   color: #333;
 }
 
-.button1:enabled {
-  color: #396df2;
-}
-
 .button1:focus {
   background-color: #172b4d;
 }
 
 .button2:hover {
-  background-color: #7f8cff;
+  background-color: #ff7235;
   color: #172b4d;
   transform: 0.8s;
 }
@@ -578,26 +582,18 @@ a {
   color: #333;
 }
 
-.button2:enabled {
-  color: #396df2;
-}
-
 .button2:focus {
   background-color: #172b4d;
 }
 
 .button3:hover {
-  background-color: #7f8cff;
+  background-color: #ff7235;
   color: #172b4d;
   transform: 0.8s;
 }
 
 .button3:disabled {
   color: #333;
-}
-
-.button3:enabled {
-  color: #396df2;
 }
 
 .button3:focus {
@@ -707,7 +703,7 @@ a {
 
 .contact-details .paragraph {
   margin-top: -15px;
-  color: #ebebff;
+  color: #262626;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -715,6 +711,7 @@ a {
   height: 102px;
   width: 305px;
   margin-left: -12px;
+  background-color: #fff;
 }
 
 .home-button {
@@ -816,7 +813,7 @@ a {
     font-size: 16px;
     font-style: normal;
     line-height: 24px;
-    color: #7f8cff;
+    color: #0016db;
     font-family: 'Poppins', sans-serif;
     order: 0;
     flex: 0 0 auto;
@@ -1032,6 +1029,39 @@ a {
     height: 24px;
   }
 
+  .primary-buttons .button1 {
+    background-color: #0b37a8;
+    color: #fff;
+  }
+
+  .primary-buttons .button1:hover {
+    background-color: #ff7235;
+    color: #172b4d;
+    transform: 0.8s;
+  }
+
+  .primary-buttons .button2 {
+    background-color: #0b37a8;
+    color: #fff;
+  }
+
+  .primary-buttons .button2:hover {
+    background-color: #ff7235;
+    color: #172b4d;
+    transform: 0.8s;
+  }
+
+  .primary-buttons .button3 {
+    background-color: #0b37a8;
+    color: #fff;
+  }
+
+  .primary-buttons .button3:hover {
+    background-color: #ff7235;
+    color: #172b4d;
+    transform: 0.8s;
+  }
+
   .tonic-title h2 {
     display: flex;
     flex-direction: column;
@@ -1225,7 +1255,7 @@ a {
     margin-bottom: 20px;
     gap: 0;
     width: 1444px;
-    height: 846px;
+    height: auto;
     flex: 0 0 auto;
     order: 0;
     flex-grow: 0;
@@ -1283,14 +1313,15 @@ a {
 
   .contact-details .paragraph {
     margin-top: 115px;
-    color: #ebebff;
+    color: #262626;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-style: normal;
     height: 102px;
-    width: 425px;
-    margin-left: 65px;
+    width: 312px;
+    margin-left: 30px;
+    background-color: #fff;
   }
 
   body::-webkit-scrollbar {
