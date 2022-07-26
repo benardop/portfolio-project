@@ -104,6 +104,7 @@ ul {
   width: 170px;
   margin-top: auto;
   padding: 16px;
+  margin-left: -0.8rem;
 }
 
 #image1 {
@@ -871,7 +872,7 @@ ul {
   .connect-icon {
     list-style-type: none;
     display: flex;
-    margin-left: 84px;
+    margin-left: 5rem;
     justify-content: space-between;
     align-items: flex-start;
     width: 170px;
@@ -1401,5 +1402,10 @@ ul {
     font-size: 24px;
     color: #4756df;
     transition: 0.2s;
+  }
+
+  nav h2 {
+    display: block;
+    color: #4756df;
   }
 }
