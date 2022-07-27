@@ -819,7 +819,6 @@ nav .closebtn {
   opacity: 0.96;
 }
 
-
 /** Desktop Media css styles **/
 @media only screen and (min-width: 768px) {
   .root-container {
