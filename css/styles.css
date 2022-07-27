@@ -36,6 +36,7 @@ nav ul {
   text-align: center;
   transform: translateX(120%);
   transition: transform 0.5s ease-in;
+  list-style-type: none;
 }
 
 nav ul li {
@@ -61,7 +62,7 @@ section p {
   color: #344563;
 }
 
-ul {
+nav #navbar {
   padding: 10px 17px 0 17px;
   display: flex;
   align-items: center;
@@ -135,9 +136,10 @@ nav a {
   transition: 0.2s;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover,
+nav a:focus {
   color: #000;
-} 
+}
 
 nav .closebtn {
   position: absolute;
@@ -150,11 +152,11 @@ nav .closebtn {
   font-size: 30px;
   top: 15px;
   right: 35px;
-  }
-
-ul {
-  list-style-type: none;
 }
+
+/* nav ul {
+  list-style-type: none;
+} */
 
 .tonic-card {
   display: flex;
@@ -1402,10 +1404,5 @@ ul {
     font-size: 24px;
     color: #4756df;
     transition: 0.2s;
-  }
-
-  nav h2 {
-    display: block;
-    color: #4756df;
   }
 }
