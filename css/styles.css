@@ -66,7 +66,8 @@ nav #navbar {
   padding: 10px 17px 0 17px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .link-image {
@@ -801,6 +802,26 @@ nav .closebtn {
   transform: 0.8s;
 }
 
+.nav-overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 90%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #4756df;
+  overflow-y: hidden;
+  transition: 0.5s;
+  opacity: 0.96;
+}
+
+.nav-overlay a {
+  color: #fff;
+}
+
 /** Desktop Media css styles **/
 @media only screen and (min-width: 768px) {
   .root-container {
@@ -881,19 +902,6 @@ nav .closebtn {
     height: 20px;
     margin-top: auto;
   }
-
-  /* nav {
-    all: unset;
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0.2rem 1.85rem;
-    list-style: none;
-  } */
 
   nav {
     all: unset;
