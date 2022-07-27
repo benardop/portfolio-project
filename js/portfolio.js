@@ -16,6 +16,6 @@ navigation_link.forEach((navLink) =>
     })
 );
 
-// btnClose.addEventListener("click", () => {
-//     ul.classList.toggle("show");
-// })
+btnClose.addEventListener("click", () => {
+    ul.classList.toggle("show");
+})
