@@ -572,7 +572,7 @@ nav .closebtn {
   line-height: 24px;
 }
 
-.language a {
+.language .union {
   display: flex;
   justify-content: space-around;
   width: 20px;
@@ -1397,7 +1397,7 @@ nav .closebtn {
     display: none;
   }
 
-  nav a {
+  .language a nav a {
     display: block;
     padding: 8px;
     text-decoration: none;
