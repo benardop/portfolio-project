@@ -65,7 +65,6 @@ section p {
 nav #navbar {
   padding: 10px 17px 0 17px;
   display: flex;
-  align-items: center;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -143,7 +142,7 @@ nav a:focus {
 }
 
 nav .closebtn {
-  position: absolute;
+  /* position: absolute; */
   top: 22px;
   right: 45px;
   font-size: 30px;
@@ -802,10 +801,12 @@ nav .closebtn {
   transform: 0.8s;
 }
 
+.nav-overlay a {
+  color: #fff;
+}
+
 .nav-overlay {
-  display: flex;
   flex-direction: column;
-  gap: 10px;
   height: 90%;
   width: 100%;
   position: fixed;
@@ -818,9 +819,6 @@ nav .closebtn {
   opacity: 0.96;
 }
 
-.nav-overlay a {
-  color: #fff;
-}
 
 /** Desktop Media css styles **/
 @media only screen and (min-width: 768px) {
@@ -830,6 +828,10 @@ nav .closebtn {
     width: 1440px;
     height: 5125px;
     background: #e5e5e5;
+  }
+
+  nav .nav-overlay {
+    all: unset;
   }
 
   .header-section {
@@ -922,7 +924,10 @@ nav .closebtn {
     gap: 0.2rem;
   }
 
-  ul a {
+  /* ul a {
+    color: #344563;
+  } */
+  #navbar a {
     color: #344563;
   }
 
