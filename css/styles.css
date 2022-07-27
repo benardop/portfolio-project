@@ -26,6 +26,31 @@ body::-webkit-scrollbar {
   margin: 0 auto 0 auto;
 }
 
+nav ul {
+  position: fixed;
+  background-color: #fcfcfc;
+  flex-direction: column;
+  top: 86px;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  transform: translateX(120%);
+  transition: transform 0.5s ease-in;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 8px;
+}
+
+.bugger-menu {
+  display: block;
+}
+
+nav ul.show {
+  transform: translateX(0);
+}
+
 section p {
   margin-top: 0;
   font-style: normal;
@@ -37,11 +62,11 @@ section p {
   color: #344563;
 }
 
-.navigation-bar {
+nav #navbar {
   padding: 10px 17px 0 17px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .link-image {
@@ -67,7 +92,7 @@ section p {
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  color: #7f8cff;
+  color: #4756df;
   font-family: 'Poppins', sans-serif;
   order: 0;
   flex: 0 0 auto;
@@ -80,6 +105,7 @@ section p {
   width: 170px;
   margin-top: auto;
   padding: 16px;
+  margin-left: -0.8rem;
 }
 
 #image1 {
@@ -94,12 +120,43 @@ a {
   font-family: 'Raleway', sans-serif;
 }
 
-.nav-link {
+nav {
   padding: 10px 17px 0 17px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+nav a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #4756df;
+  transition: 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #000;
+}
+
+nav .closebtn {
+  /* position: absolute; */
+  top: 22px;
+  right: 45px;
+  font-size: 30px;
+}
+
+#navbar .closebtn {
+  font-size: 30px;
+  top: 15px;
+  right: 35px;
+}
+
+/* nav ul {
+  list-style-type: none;
+} */
 
 .tonic-card {
   display: flex;
@@ -297,8 +354,6 @@ a {
   width: 45px;
   height: 24px;
   font-family: 'Poppins', sans-serif;
-
-  /* background: #ebebff; */
   padding: 4px 12px;
   border-radius: 8px;
   flex-direction: row;
@@ -517,7 +572,7 @@ a {
   line-height: 24px;
 }
 
-.language a {
+.language #union {
   display: flex;
   justify-content: space-around;
   width: 20px;
@@ -608,10 +663,8 @@ a {
   margin-top: -405px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-bottom: 20px;
   gap: 0;
   width: 327px;
-  height: 1485px;
   flex: 0 0 auto;
   order: 0;
   flex-grow: 0;
@@ -748,8 +801,23 @@ a {
   transform: 0.8s;
 }
 
-.nav-link .navigation-bar {
-  display: none;
+#navbar a {
+  color: #fff;
+}
+
+.nav-overlay {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #4756df;
+  overflow-y: hidden;
+  transition: 0.5s;
+  opacity: 0.96;
 }
 
 /** Desktop Media css styles **/
@@ -760,6 +828,10 @@ a {
     width: 1440px;
     height: 5125px;
     background: #e5e5e5;
+  }
+
+  nav .nav-overlay {
+    all: unset;
   }
 
   .header-section {
@@ -773,6 +845,10 @@ a {
     left: 0;
     top: 0;
     margin: 0 auto 0 auto;
+  }
+
+  .bugger-menu {
+    display: none;
   }
 
   .developer-name {
@@ -821,7 +897,7 @@ a {
   .connect-icon {
     list-style-type: none;
     display: flex;
-    margin-left: 84px;
+    margin-left: 5rem;
     justify-content: space-between;
     align-items: flex-start;
     width: 170px;
@@ -829,7 +905,7 @@ a {
     margin-top: auto;
   }
 
-  .nav-link {
+  nav {
     all: unset;
     position: sticky;
     z-index: 1;
@@ -837,33 +913,36 @@ a {
     left: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0.2rem 1.85rem;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
     list-style: none;
   }
 
-  .nav-link .navigation-bar {
+  nav ul {
     all: unset;
     display: flex;
     gap: 0.2rem;
   }
 
-  .navigation-bar a {
+  /* ul a {
+    color: #344563;
+  } */
+  #navbar a {
     color: #344563;
   }
 
-  .nav-link img {
+  nav img {
     display: none;
   }
 
-  .nav-link .logo {
+  nav .logo {
     font-size: 15px;
     transition-property: font-size;
     transition-duration: 2s;
     transition-delay: 0.2s;
   }
 
-  .nav-link .logo:hover {
+  nav .logo:hover {
     font-size: 38px;
     color: #ff7235;
   }
@@ -1204,7 +1283,7 @@ a {
     background-color: #fff;
   }
 
-  .language a {
+  .language #union {
     display: flex;
     justify-content: space-around;
     width: 20px;
@@ -1324,6 +1403,10 @@ a {
   }
 
   body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .closebtn {
     display: none;
   }
 }
