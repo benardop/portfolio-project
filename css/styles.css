@@ -572,7 +572,7 @@ nav .closebtn {
   line-height: 24px;
 }
 
-.language .union {
+.language #union {
   display: flex;
   justify-content: space-around;
   width: 20px;
@@ -801,7 +801,7 @@ nav .closebtn {
   transform: 0.8s;
 }
 
-.nav-overlay a {
+#navbar a {
   color: #fff;
 }
 
@@ -1283,7 +1283,7 @@ nav .closebtn {
     background-color: #fff;
   }
 
-  .language a {
+  .language #union {
     display: flex;
     justify-content: space-around;
     width: 20px;
@@ -1408,14 +1408,5 @@ nav .closebtn {
 
   .closebtn {
     display: none;
-  }
-
-  .language a nav a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 24px;
-    color: #4756df;
-    transition: 0.2s;
   }
 }
