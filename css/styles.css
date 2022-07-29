@@ -1,13 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .root-container {
-  display: grid;
-  position: absolute;
-  height: 5410px;
-  width: 375px;
-  gap: 500px;
-  left: 2px;
-  right: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 350px;
+  /* position: absolute; */
+  /* height: 5410px; */
+  width: 100%;
+  height: 100%;
+  /* width: 375px; */
+  /* gap: 500px; */
+  /* left: 2px;
+  right: 300px; */
   background: #f7f7f9;
 }
 
@@ -515,13 +527,14 @@ nav .closebtn {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-top-right-radius: 80px;
   padding: 16px;
-  margin-top: -405px;
-  margin-left: 5px;
+  margin-top: -365px;
+  margin-left: 105px;
   margin-right: 5px;
   margin-bottom: 50px;
   gap: 0;
-  width: 327px;
+  width: 357px;
   height: 1285px;
   flex: 0 0 auto;
   order: 0;
@@ -819,6 +832,201 @@ nav .closebtn {
   transition: 0.5s;
   opacity: 0.96;
 }
+.projects-section {
+  display: grid;
+  grid-template-rows: repeat(4, 25%);
+  align-items: center;
+  padding: 115px 25px;
+  gap: 285px;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+}
+
+.tonic-card {
+  /* justify-content: space-between;
+  padding-left: 35px;
+  display: flex;
+  flex-direction: row;
+  width: 1156px;
+  height: 446px;
+  background: #fff;
+  border-radius: 24px;
+  border: 1px solid #dfe1e6;
+  margin: -100px 0 0 100px; */
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 25px;
+gap: 15px;
+background: #fff;
+border: 1px solid #dfe1e6;
+border-radius: 16px;
+}
+
+/** details popup css styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+  /* overflow: auto; Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: inline-block;
+  position: fixed;
+  overflow: auto;
+  left: 50%;
+  top: 1rem;
+  transform: translate(-50%, 0);
+  width: 90%;
+  height: 95vh;
+  border-radius: 16px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+.popup-snapshoot-portfolio {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.popup-snapshoot-portfolio img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+}
+
+.popup-snapshoot-portfolio:hover {
+  transform: scale(1.06);
+  transition: 0.4s;
+}
+
+.popup-client-frame ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #737578;
+  background-color: #fff;
+}
+
+.popup-client-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  background-color: #fff;
+}
+
+.popup-client-frame h3 {
+  padding: 0;
+  display: inline;
+}
+
+.popup-client-frame span {
+  padding: 0 16px;
+}
+
+.popup-project-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 0 15px;
+}
+
+.popup-detail-txt {
+  font-weight: 400;
+  font-size: 18px;
+  color: #344563;
+  /* padding: 12px 16px; */
+}
+
+.popup-tags {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 15px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+  gap: 25px;
+}
+
+/**extra popup styles for the li*/
+.popup-action button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.popup-client-frame li {
+  display: inline;
+  padding: 20px 0;
+}
+
+.popup-tags li {
+  display: inline;
+  padding: 5px 12px;
+  margin-right: 10px;
+  color: rgb(58, 74, 219);
+  background: #dedee4;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.popup-action button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: baseline;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+
+/*THE END OF CSS POPUp*/
 
 /** Desktop Media css styles **/
 @media only screen and (min-width: 768px) {
@@ -945,19 +1153,6 @@ nav .closebtn {
   nav .logo:hover {
     font-size: 38px;
     color: #ff7235;
-  }
-
-  .tonic-card {
-    justify-content: space-between;
-    padding-left: 35px;
-    display: flex;
-    flex-direction: row;
-    width: 1156px;
-    height: 446px;
-    background: #fff;
-    border-radius: 24px;
-    border: 1px solid #dfe1e6;
-    margin: -100px 0 0 100px;
   }
 
   .tonic-card-2 {
@@ -1208,7 +1403,7 @@ nav .closebtn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     padding: 16px;
     margin-top: 50px;
     margin-left: 5px;
@@ -1409,4 +1604,48 @@ nav .closebtn {
   .closebtn {
     display: none;
   }
+
+  /*======Start of Details Popup css styles======*/
+  /* ============================Start of Desktop-Details Popup Window======================= */
+
+  .modal-content {
+    padding: 40px 60px;
+  }
+
+  .popup-snapshoot-portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+    border: 3px solid rgb(195, 193, 193);
+  }
+
+  .popup-snapshoot-portfolio img {
+    width: 80rem;
+    height: 40rem;
+    border-radius: 50px;
+    border: 1px solid rgb(195, 193, 193);
+  }
+
+  .popup-snapshoot-portfolio:hover {
+    transform: scale(1);
+  }
+
+  .popup-description-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 45px 5px;
+    align-items: center;
+  }
+
+  .popup-description-container p {
+     width: 70%;
+  }
+
+
+  .popup-project-title {
+    padding: 5px 20px;
+  }
+
+  /* ============================End of Desktop-Details Popup Window======================= */
 }
