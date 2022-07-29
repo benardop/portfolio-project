@@ -874,17 +874,6 @@ nav .closebtn {
   justify-items: center;
 }
 
-/* .tonic-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 25px;
-  gap: 15px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-} */
-
 /** details popup css styles */
 .modal {
   display: none; /* Hidden by default */
