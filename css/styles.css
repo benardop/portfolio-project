@@ -809,7 +809,7 @@ nav .closebtn {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Modal Content/Box */
@@ -958,16 +958,14 @@ nav .closebtn {
   height: 50px;
 }
 
- /* This is the style of our email field error messages */
- .error {
-  width  : 100%;
+/* This is the style of our email field error messages */
+.error {
+  width: 100%;
   padding: 0;
-
   font-size: 80%;
   color: white;
   background-color: #900;
   border-radius: 0 0 5px 5px;
-
   box-sizing: border-box;
 }
 
@@ -975,13 +973,13 @@ nav .closebtn {
   padding: 0.3em;
 }
 
-input[type=email].invalid{
+input[type=email].invalid {
   border-color: #900;
-  background-color: #FDD;
+  background-color: #fdd;
 }
 
 .emailerrorTxt {
-  color: #ff0000;
+  color: #f00;
   font-size: 1.3rem;
   text-align: center;
 }
@@ -1627,32 +1625,28 @@ input[type=email].invalid{
   /* end desktop popup */
 
   /* This is the style of our email field error messages */
-.error {
-  width  : 100%;
-  padding: 0;
+  .error {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+  }
 
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
+  .error.active {
+    padding: 0.3em;
+  }
 
-  box-sizing: border-box;
-}
+  input[type=email].invalid {
+    border-color: #900;
+    background-color: #fdd;
+  }
 
-.error.active {
-  padding: 0.3em;
-}
-
-input[type=email].invalid{
-  border-color: #900;
-  background-color: #FDD;
-}
-
-.emailerrorTxt {
-  color: #ff0000;
-  font-size: 1.3rem;
-  text-align: center;
-}
-
-
+  .emailerrorTxt {
+    color: #f00;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
