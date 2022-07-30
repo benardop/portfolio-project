@@ -202,12 +202,13 @@
                     </p>
                 </div>
                 <div class="contact-form">
-                    <form class="input-field" action="https://formspree.io/f/xdobrban" method="post" >
+                    <form class="input-field" name="detailForm" action="https://formspree.io/f/xdobrban" method="post">
                         <input class="name-input" type="text" name="name" maxlength="30" required placeholder="Your name">
-                        <input class="email-input" type="email" name="email" required placeholder="Your email">
+                        <input class="email-input" type="email" name="email" id="email" required placeholder="Your email">
+                        <span class="emailerrorTxt" id="errorMsg" aria-live="polite"></span>
                         <textarea class="textarea-input" name="message" maxlength="500" required cols="30" rows="10"
                          placeholder="Write your message here"></textarea>
-                        <button class="input-button" type="submit">Get in Touch</button>
+                        <button class="input-button" id="submitButton" name="btnSubmit" type="submit">Get in Touch</button>
                     </form>
                 </div>
                 <div class="home-button">
@@ -218,5 +219,6 @@
    </section>   
    <script src="https://kit.fontawesome.com/09204fa0a6.js" crossorigin="anonymous"></script>
    <script type="text/javascript" src="./js/portfolio.js"></script>
+   <script type="text/javascript" src="./js/formValidation.js"></script>
 </body>
 </html>

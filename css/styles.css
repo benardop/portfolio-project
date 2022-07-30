@@ -958,6 +958,34 @@ nav .closebtn {
   height: 50px;
 }
 
+ /* This is the style of our email field error messages */
+ .error {
+  width  : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+input[type=email].invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+.emailerrorTxt {
+  color: #ff0000;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
 /* end opoup styles */
 
 /** Desktop Media css styles **/
@@ -1597,4 +1625,34 @@ nav .closebtn {
   }
 
   /* end desktop popup */
+
+  /* This is the style of our email field error messages */
+.error {
+  width  : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+input[type=email].invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+.emailerrorTxt {
+  color: #ff0000;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+
 }
