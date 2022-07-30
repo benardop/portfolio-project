@@ -11,19 +11,8 @@
   flex-direction: column;
   justify-items: center;
   gap: 350px;
-
-  /* position: absolute; */
-
-  /* height: 5410px; */
   width: 100%;
   height: 100%;
-
-  /* width: 375px; */
-
-  /* gap: 500px; */
-
-  /* left: 2px;
-  right: 300px; */
   background: #f7f7f9;
 }
 
@@ -169,70 +158,6 @@ nav .closebtn {
   top: 15px;
   right: 35px;
 }
-
-/* nav ul {
-  list-style-type: none;
-} */
-
-/* .tonic-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  margin-top: -405px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  gap: 0;
-  background: #fff;
-  width: 327px;
-  height: 652px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  flex: 0 0 auto;
-  order: 0;
-  flex-grow: 0;
-} */
-
-/* .tonic-card-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  margin-top: -405px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  gap: 0;
-  background: #fff;
-  width: 327px;
-  height: 652px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  flex: 0 0 auto;
-  order: 0;
-  flex-grow: 0;
-} */
-
-/* .tonic-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  margin-top: -405px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  gap: 0;
-  background: #fff;
-  width: 327px;
-  height: 652px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  flex: 0 0 auto;
-  order: 0;
-  flex-grow: 0;
-} */
 
 /* tonic card styles used */
 .tonic-card {
@@ -876,17 +801,15 @@ nav .closebtn {
 
 /** details popup css styles */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 9999; /* Sit on top */
+  display: none;
+  position: fixed;
+  z-index: 9999;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-
-  /* overflow: auto; Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Modal Content/Box */
@@ -1033,6 +956,32 @@ nav .closebtn {
   border-radius: 8px;
   margin-top: 20px;
   height: 50px;
+}
+
+/* This is the style of our email field error messages */
+.error {
+  width: 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+input[type=email].invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+.emailerrorTxt {
+  color: #f00;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 /* end opoup styles */
@@ -1232,47 +1181,6 @@ nav .closebtn {
     flex-grow: 0;
     margin-left: -15px;
   }
-
-  /* .tonic-card .left-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    width: 295px;
-    height: 332px;
-    flex: 0 0 auto;
-    order: 1;
-    flex-grow: 0;
-    margin-left: -15px;
-  } */
-
-  /* .tonic-card-3 .left-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    width: 295px;
-    height: 332px;
-    flex: 0 0 auto;
-    order: 1;
-    flex-grow: 0;
-    margin-right: 295px;
-    margin-top: -120px;
-  } */
-
-  /* .tonic-card-3 .left-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    width: 295px;
-    height: 332px;
-    flex: 0 0 auto;
-    order: 1;
-    flex-grow: 0;
-    margin-right: 295px;
-    margin-top: -120px;
-  } */
 
   .container-image-1 {
     background-image: url("../image/snapshoot-portfolio-desktop1.svg");
@@ -1715,4 +1623,30 @@ nav .closebtn {
   }
 
   /* end desktop popup */
+
+  /* This is the style of our email field error messages */
+  .error {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+  }
+
+  .error.active {
+    padding: 0.3em;
+  }
+
+  input[type=email].invalid {
+    border-color: #900;
+    background-color: #fdd;
+  }
+
+  .emailerrorTxt {
+    color: #f00;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
